@@ -187,6 +187,67 @@
 
     </div>
 </section>
+
+    <section class="max-w-350 m-auto mt-[70px] p-[20px] lg:p-[60px] bg-[#00578A] rounded-[16px]">
+    <div class="flex flex-col gap-y-[30px]">
+        
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-y-[15px]">
+            <h1 class="text-[white] text-[32px] lg:text-[42px] font-[600]">Записаться на приём</h1>
+            <p class="text-[#E0F2FE] text-[16px] lg:text-[18px] max-w-[350px] font-[400] opacity-90">
+                Оставьте заявку и мы свяжемся с вами в ближайшее время
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-[20px] items-start mt-[10px]">
+            
+            <div class="flex flex-col gap-y-[15px]">
+                <div class="relative">
+                    <select class="w-full h-[60px] px-[20px] bg-[white] text-[#424242] text-[16px] rounded-[8px] appearance-none outline-none cursor-pointer">
+                        <option value="" disabled selected hidden>Выберете направление</option>
+                        <option value="1">Терапия</option>
+                        <option value="2">Педиатрия</option>
+                    </select>
+                    <div class="absolute right-[20px] top-[22px] pointer-events-none text-[#424242]">
+                        <svg class="w-[16px] h-[16px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <select class="w-full h-[60px] px-[20px] bg-[white] text-[#424242] text-[16px] rounded-[8px] appearance-none outline-none cursor-pointer">
+                        <option value="" disabled selected hidden>Выберете врача</option>
+                        <option value="1">Иванов И.И.</option>
+                        <option value="2">Петров П.П.</option>
+                    </select>
+                    <div class="absolute right-[20px] top-[22px] pointer-events-none text-[#424242]">
+                        <svg class="w-[16px] h-[16px]" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"></path></svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-y-[15px]">
+                <input type="text" placeholder="Ваше имя" class="w-full h-[60px] px-[20px] bg-[white] text-[#424242] text-[16px] rounded-[8px] outline-none placeholder:text-[#A3A3A3]">
+                <input type="tel" placeholder="Ваш телефон" class="w-full h-[60px] px-[20px] bg-[white] text-[#424242] text-[16px] rounded-[8px] outline-none placeholder:text-[#A3A3A3]">
+            </div>
+
+            <div class="flex flex-col gap-y-[15px]">
+                <button class="w-full h-[60px] bg-[#00D2C4] text-[white] text-[18px] font-[600] rounded-[8px] hover:bg-[#00B8AC] transition-colors duration-300">
+                    Оставить заявку
+                </button>
+                
+                <div class="flex items-start gap-[10px] mt-[5px]">
+                    <div class="pt-[3px]">
+                        <input type="checkbox" id="agreement" class="w-[16px] h-[16px] rounded-[4px] accent-[#00D2C4]">
+                    </div>
+                    <label for="agreement" class="text-[13px] text-[#E0F2FE] opacity-80 leading-[1.4] cursor-pointer selection:bg-transparent">
+                        Отправляя заявку, вы соглашаетесь на нашу 
+                        <a href="" class="underline hover:text-[white] transition-colors">политику конфиденциальности</a>
+                    </label>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
     </main>
 </body>
 </html>
