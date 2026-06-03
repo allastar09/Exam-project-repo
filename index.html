@@ -863,5 +863,78 @@
   </div>
 </div>
 
+
+<div class="w-full bg-white font-sans mt-24 mb-16 select-none">
+  
+  <div class="max-w-7xl mx-auto px-4 mb-8">
+    <h2 class="text-3xl font-bold text-[#111827] tracking-tight">
+      Как нас найти
+    </h2>
+  </div>
+
+  <div class="w-full h-[450px] bg-slate-100 relative mb-16">
+    <img src="./map (1).png" alt="Карта" class="w-full h-full object-cover block">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="w-full bg-gradient-to-r from-[#0099cc] to-[#00b4d8] rounded-2xl p-8 md:p-12 shadow-md">
+      
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-10">
+        <h2 class="text-2xl md:text-4xl font-bold text-white tracking-wide">
+          Записаться на приём
+        </h2>
+        <p class="text-sm md:text-base text-blue-50 opacity-90 max-w-xs leading-relaxed md:text-right">
+          Оставьте заявку и мы свяжемся с вами в ближайшее время
+        </p>
+      </div>
+
+      <form class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="space-y-4">
+          <div class="relative">
+            <select class="w-full h-12 px-4 bg-white text-gray-700 text-xs rounded-lg border border-transparent focus:outline-none appearance-none cursor-pointer font-medium">
+              <option>Выберете направление</option>
+            </select>
+            <div class="absolute inset-y-0 right-4 flex items-center pointer-events-none">
+              <img src="./Chevron Down.png" alt="Arrow" class="w-3 h-3 opacity-60">
+            </div>
+          </div>
+          
+          <div class="relative">
+            <select class="w-full h-12 px-4 bg-white text-gray-700 text-xs rounded-lg border border-transparent focus:outline-none appearance-none cursor-pointer font-medium">
+              <option>Выберете врача</option>
+            </select>
+            <div class="absolute inset-y-0 right-4 flex items-center pointer-events-none">
+              <img src="./Chevron Down.png" alt="Arrow" class="w-3 h-3 opacity-60">
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <input type="text" placeholder="Ваше имя" class="w-full h-12 px-4 bg-white text-gray-700 text-xs rounded-lg border border-transparent focus:outline-none placeholder-gray-400 font-medium">
+          <input type="tel" placeholder="Ваш телефон" class="w-full h-12 px-4 bg-white text-gray-700 text-xs rounded-lg border border-transparent focus:outline-none placeholder-gray-400 font-medium">
+        </div>
+
+        <div class="flex flex-col justify-between gap-4">
+          <button type="submit" class="w-full h-12 bg-[#00ced1] text-white font-bold text-xs rounded-lg shadow-sm hover:bg-cyan-600 transition-colors flex items-center justify-center tracking-wider">
+            Оставить заявку
+          </button>
+          
+          <label class="flex items-start gap-2.5 cursor-pointer select-none">
+            <input type="checkbox" class="w-4 h-4 mt-0.5 rounded border-gray-300 text-cyan-500 focus:ring-0 accent-cyan-500 cursor-pointer">
+            <span class="text-[11px] text-blue-50 opacity-90 leading-tight font-normal">
+              Отправляя заявку, вы соглашаетесь на нашу 
+              <a href="#" class="underline hover:text-white transition-colors">политику конфиденциальности</a>
+            </span>
+          </label>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+
+</div>
+
 </body>
 </html>
