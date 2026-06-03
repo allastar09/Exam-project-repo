@@ -10,44 +10,85 @@
 
 <body>
     <header>
-        <nav>
-            <div>
+        <nav class="lg:max-w-[1440px] lg:h-[160px] bg-[#f3f3f3ef] m-auto">
+            <div class="lg:max-w-[1390px] h-[85px] flex m-auto items-center lg:justify-between justify-around">
                 <div>
-                    <img src="./img/logo.svg" alt="">
+                    <img class="lg:w-[220px] lg:h-[73.10893249511719px] w-[148px] h-[49px]" src="./img/logo.svg" alt="">
                 </div>
 
-                <div>
-                    <p>8 (495) 926-06-03</p>
+                <div class="lg:hidden block">
+                    <img class="w-[32px] h-[32px]" src="./img/image copy 2.png" alt="">
                 </div>
-                <div>
+
+                <div class="lg:hidden flex gap-[13px] items-center">
+                    <p class="text-[#7F8D94] text-[16px]">Меню</p>
                     <div>
-                        <img src="./img/social.png" alt="">
+                        <img class="w-[35px] h-[30px]" src="./img/image copy 3.png" alt="">
                     </div>
-                    <p>Whatsapp</p>
                 </div>
 
-                <div>
-                    <p>info@gormedcentre.ru<br>
-                        Заказать звонок</p>
+                <div class="lg:w-[156px] hidden lg:flex flex-col justify-start">
+                    <div>
+                        <p class="text-[#00578A] text-[18px] font-[600]">8 (495) 926-06-03</p>
+                    </div>
+
+                    <div class="flex items-center gap-[10px]">
+                        <div>
+                            <img class="w-[18px] h-[18px]" src="./img/social.png" alt="">
+                        </div>
+                        <p class="text-[#4F4F4F] text-[14px]">Whatsapp</p>
+                    </div>
                 </div>
-                <div>
+
+                <div class="text-[#4F4F4F] text-[14px] hidden lg:block">
+                    <p>info@gormedcentre.ru</p>
+                    <p class="underline">Заказать звонок</p>
+                </div>
+                <div class="text-[#4F4F4F] text-[14px] hidden lg:block">
                     <p>г. Мытищи,<br>
                         ул.Рождественская, д.7</p>
                 </div>
 
-                <div>
+                <div class="text-[#4F4F4F] text-[14px] hidden lg:block">
                     <p>Ежедневно<br>
                         с 9.00 до 21.00</p>
                 </div>
 
-                <div>
-                    <img src="./img/image.png" alt="">
+                <div class=" hidden lg:flex items-center gap-[15px]">
+                    <div class="w-[54px] h-[46px] rounded-[5px] bg-[#00C6BF] flex items-center justify-center">
+                        <img src="./img/image.png" alt="">
+                    </div>
+
+                    <button
+                        class="hidden lg:block w-[196px] h-[46px] rounded-[5px] bg-[#E3EFF5] text-[#00578A] font-[600] text-[16px]">
+                        Личный кабинет
+                    </button>
+                </div>
+            </div>
+
+            <div class="max-w-[1390px] h-[60px] hidden lg:flex m-auto bg-white items-center justify-between">
+                <div class="flex lg:w-[786px] lg:h-[23px] justify-around text-[#141414] text-[16px] font-[600]">
+                    <a href="#">Page 1</a>
+                    <a href="#">Page 2</a>
+                    <a href="#">Page 3</a>
+                    <a href="#">Page 4</a>
+                    <a href="#">Page 5</a>
+                    <a href="#">О центре</a>
+                    <a href="#">Детство</a>
+                    <a href="#">Контакты</a>
                 </div>
 
-                <button>
-                    Личный кабинет
-                </button>
-
+                <div class="hidden lg:flex items-center gap-[20px]">
+                    <div class="flex items-center gap-[15px]">
+                        <div>
+                            <img class="w-[21px] h-[19px]" src="./img/image copy.png" alt="">
+                        </div>
+                        <P class="text-[14px] text-[#141414] font-normal">Версия для слабовидящих</P>
+                    </div>
+                    <button class="w-[196px] h-[46px] bg-[#00578A] rounded-[5px] text-[16px] text-white font-[600]">
+                        Запись на приём
+                    </button>
+                </div>
             </div>
         </nav>
     </header>
